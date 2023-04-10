@@ -1,0 +1,13 @@
+#home img{
+    height: 200px;
+    object-fit: cover;
+}
+#carouselHome .carousel-inner img{
+    height: 70vh;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+#navbar{
+    background-color: #222E3C;
+}

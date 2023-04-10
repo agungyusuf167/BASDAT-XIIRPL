@@ -1,0 +1,30 @@
+def garis():
+    print ("========================================")
+
+garis()
+print ("Masukkan Sepuluh Bilangan")
+a = int(input("Masukkan Bilangan Ke 1 : "))
+b = int(input("Masukkan Bilangan Ke 2 : "))
+c = int(input("Masukkan Bilangan Ke 3 : "))
+d = int(input("Masukkan Bilangan Ke 4 : "))
+e = int(input("Masukkan Bilangan Ke 5 : "))
+f = int(input("Masukkan Bilangan Ke 6 : "))
+g = int(input("Masukkan Bilangan Ke 7 : "))
+h = int(input("Masukkan Bilangan Ke 8 : "))
+i = int(input("Masukkan Bilangan Ke 9 : "))
+j = int(input("Masukkan Bilangan Ke 10 : "))
+garis()
+angka = [a,b,c,d,e,f,g,h,i,j]
+total = a+b+c+d+e+f+g+h+i+j
+asc = sorted(angka)
+dsc = sorted(angka, reverse=True)
+max = max(angka)
+min = min(angka)
+sum = total / len(angka)
+#output
+print ('Urutan Nilai Ascending  : ', asc)
+print ('Urutan Nilai Descending : ', dsc)
+print ('Nilai MAX :', max)
+print ('Nilai MIN :', min)
+print ('Nilai RATA RATA :', sum)
+garis()
